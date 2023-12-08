@@ -10,8 +10,20 @@ const Navbar = () => {
             <li className='p-4'>Eligiblity</li>
             <li className='p-4'>Resources</li>
             <li className='p-4'>About</li>
+            </ul>
+            <div>
+                <AiOutlineMenu size={20}/>
+            </div>
+            <div>
+            <ul>
+            <li className='p-4'>Home</li>
+            <li className='p-4'>Eligiblity</li>
+            <li className='p-4'>Resources</li>
+            <li className='p-4'>About</li>
 
             </ul>
+
+            </div>
         </div>
     )
 }
