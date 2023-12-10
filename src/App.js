@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TextAni from './components/TextAni';
 import Form from './pages/Form';
+import Hero1 from './components/Hero1';
 /*his is the method to call for the form page*/
   
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -23,7 +24,7 @@ function App() {
                     </Routes>
         </Router> 
   
-        <Hero />
+        <Hero1 />
         <TextAni />
         
       </div>
