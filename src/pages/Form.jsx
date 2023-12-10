@@ -302,7 +302,7 @@ const Form = () => {
 
     return (
         <div>
-            <Navbar />
+          { /* <Navbar />*/}
             <form onSubmit={handleSubmit} id="formContent" className="form-container">
                 <div className="form-field">
                     <label htmlFor="firstName"style={{ color: 'white' }}>First Name:</label>
