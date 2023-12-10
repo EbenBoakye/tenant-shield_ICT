@@ -11,6 +11,13 @@ function App() {
       <div>
         <Navbar />
         {/* <Form /> */}
+    //  <Router>
+                    <Routes>
+                    <Route path="/" element={<Home />}/>
+                    <Route path="/form" element={<Form />}/>
+                    </Routes>
+        </Router> 
+  //
         <Hero />
         <TextAni />
         
