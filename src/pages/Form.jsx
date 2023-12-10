@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
 // import html2canvas from 'html2canvas';
 // import jsPDF from 'jspdf';
-// import Navbar from '../components/Navbar';
+//*****Important Note This is not needed  import Navbar from '../components/Navbar';
 
 // const Form = () => {
 //     const [formData, setFormData] = useState({
