@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Navbar from './components/Navbar';
-import Hero1 from "./components/Hero";
+import Hero from "./components/Hero";
 import EligiblePage from './pages/EligiblePage';
 import TextAni from './components/TextAni';
 import Form from './pages/Form';
@@ -24,7 +24,7 @@ function App() {
                     <Route path="/form" element={<Form />}/>
                     <Route path="/eligibility" element={<EligiblePage />} />
                     </Routes>
-                    <Hero1 />
+                    <Hero />
         </Router> 
   
         
