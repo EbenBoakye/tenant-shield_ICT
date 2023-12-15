@@ -4,6 +4,6 @@
 @tailwind utilities;
 
 body {
-  background-color: #000300;
+   background-color: #092635/*#000300; */
 }
 @babel/plugin-proposal-private-property-in-object
