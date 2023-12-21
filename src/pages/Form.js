@@ -416,7 +416,7 @@ const Form = () => {
                         /> 
                     </div>
                     <div className="form-field">
-                        <label htmlFor="hasDisabilities">Do they have any Disabilities or health issues:</label>
+                        <label htmlFor="hasDisabilities"style={{ color: 'white' }}>Do they have any Disabilities or health issues:</label>
                         <input
                             type="checkbox"
                             id="hasDisabilities"
